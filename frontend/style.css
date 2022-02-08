@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* css reset is over */
+
+  body {
+      background-color: white;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  section {
+      min-height: 100vh;
+      width: 100%;
+  }
+
+  /*-----header-----*/
+
+  header {
+     color: white;
+     border-bottom: white 1px solid;
+     font-size: 13px;
+     height: 80px;
+  }
+
+.nav-container {
+  display: flex;
+  width: 100%;
+}
+
+.ul-container {
+  max-width: 900px;
+}
+
+.nav-phone {
+  border-left: white solid 1px;
+  justify-content: center;
+  max-width: 150px;
+  height: 80px;
+}
+
+.nav-phone p{
+  margin-bottom: -15px;
+  margin-left: 10px;
+}
+
+ header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px 10px;
+    margin-left: 180px;
+    margin-right: 40px;
+   }
+
+  /* -----section 1 ------*/
+
+
+  #Welcome {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  #Welcome img {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  #Welcome h1, h2 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;    
+  }
+
+  #Welcome h2 {
+    font-size: 15px;
+    top: 55%;        
+  }
+
+  #Welcome button:hover {
+    background-color: orange;
+    color: rgba(233, 226, 213, 0.9);
+  }
+
+  #Welcome button {
+      position: absolute;
+      top: 65%;
+      left: 16%;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      height: 40px;
+      width: 165px;
+      background-color:rgba(169, 144, 88, 0.9);
+      text-shadow: 2px 2px 4px #000000;       
+  }
+
+  /* -----section 2 ------*/
+
+   #About {
+      height: 100vh;
+     }
+
+  .line2 {
+      position: absolute;
+      border: rgba(217, 193, 141) solid 0.5px;
+      width: 150px;
+      top: 23%;
+      left: 44%;
+    }
+
+  .container-1 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 900px;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 20px 0;
+  }
+
+  #About img {
+    height: 500px;
+}
+
+
+  #About div article {
+    background-color: #eaf1f8;
+    padding: 20px 0;
+     }
+
+  #About div article h1 {
+    color: black;
+    padding: 20px 200px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    font-weight: bolder;   
+   }
+
+  #About div article p {
+      width: 100%;
+      max-width: 800px;
+      padding: 5px 20px;
+      font-size: 15px;
+      font-weight: 500; 
+  }
+
+  .container-2 {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      padding: 30px 30px;
+      justify-content: space-between;
+    }
+
+  .container-2 h3 {
+      font-size: 30px;
+      color: rgba(169, 144, 88);
+      font-weight: 400;
+  }
+
+  .container-2 p {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+
+  /* -----section 3 ------*/
+
+  .container-3 {
+     position: relative;
+     display: flex;
+     width: 100%;
+     max-width: 900px;
+     margin: 0 auto;
+     padding: 30px 5px;
+     margin-top: 30px;
+   }
+
+   .line3 {
+    position: absolute;
+    border: rgba(217, 193, 141) solid 0.5px;
+    width: 200px;
+    top: 7%;
+    left: 24%;
+  }
+
+  #Our-projects h1 {
+     font-size: 29px;
+     font-weight: 600;
+     }
+
+.mini {
+  font-size: 13px;
+  margin-top:-15px;
+}
+
+ #Our-projects h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+ #Our-projects article p {
+  max-width: 800px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+  #Our-projects img {
+     max-height: 300px;
+     max-width: 200px;
+ }
+ 
+  .mini-container {
+      display: flex;
+      max-width: 500px;
+      justify-content: space-between;           
+  }
+
+  .span1 {
+    font-size: 28px;
+    color: rgba(169, 144, 88);
+    font-weight: 500;
+  }
+
+  .span2 {
+    font-size: 14px;
+    color: rgba(169, 144, 88);
+  }
+  
+ .test1, .test2, .test3 {
+  padding: 0 30px;
+  }
+
+ .day-price {
+  font-weight: 600;
+  font-size: 16px;  
+}
+      
+.button-container {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    margin-right: 15px;
+  }
+
+  .button-house:hover {
+    background-color: orange;
+    color: rgba(233, 226, 213, 0.9);
+  }
+  .button-catalog:hover {
+    border: orange solid 2px;
+    color: orange;
+  }
+
+.button-house {
+    height: 45px;
+    width: 195px;
+    background-color: rgba(169, 144, 88);
+    color: white;
+    font-weight: 500;     
+}
+
+.button-catalog {
+  height: 45px;
+  width: 195px;
+  background-color: white;
+  border: rgba(169, 144, 88) 2px solid;
+  color: rgba(169, 144, 88);
+  font-weight: 500;
+ }
+ 
+.second-column {
+  padding: 119px 0px;
+}
+
+.third-column {
+  padding: 30px 0;
+}
+
+.second-column img {
+  margin-bottom: 15px;
+}
+
+.third-column img {
+  margin-bottom: 15px;
+}
+
+  /* -----section 4 ------*/
+
+#Reviews {
+  position: relative;
+  background-image: linear-gradient(to bottom, black 70%, white 0%, white 50%);
+}
+
+ #Reviews h1 {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+ .line {
+    position: absolute;
+    border: rgba(217, 193, 141) solid 0.5px;
+    width: 150px;
+    top: 15%;
+    left: 17%;
+  }
+
+  #Reviews .lapozo1{
+    position: absolute;
+    top: 13%;
+    right: 17%;
+    width: 50px;
+    height: 40px;
+    background-color: rgba(169, 144, 88);
+    color: white;
+    padding: 7px 8px;  
+  }
+
+  #Reviews .lapozo2{
+    position: absolute;
+    top: 13%;  
+    right: 20.9%;  
+    width: 50px;
+    height: 40px;
+    border: rgba(169, 144, 88) solid 2px;
+    color:rgba(169, 144, 88);
+    padding: 7px 8px;  
+  }
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 140px 200px;
+  text-align: center;
+}
+
+.feedback {
+  background-color: rgba(217, 193, 141);
+  max-width: 400px;
+  min-height: 400px; 
+}
+
+#Reviews article h3, p {
+  padding: 15px 0;  
+}
+
+#Reviews article h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#Reviews article p {
+  font-size: 14px;
+  margin: 0 15%;
+  line-height: 150%;
+}
+
+
+#Reviews article img { 
+  border-radius: 50%;
+  border: rgba(169, 144, 88) 2px solid;
+}
+
+.checked {
+  color: rgba(169, 144, 88);
+  margin-bottom: 10px;
+}
+
